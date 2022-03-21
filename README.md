@@ -1,2 +1,2 @@
-To setup LaTeX compiler and IDE, [watch this video.](https://www.youtube.com/watch?v=9gQ1BGZqQb4)
 I'm using [MiKTeX](https://miktex.org/about) to compile and [Texmaker](https://www.xm1math.net/texmaker/index.html) to edit. 
+To setup LaTeX compiler and IDE, [watch this video.](https://www.youtube.com/watch?v=9gQ1BGZqQb4)
