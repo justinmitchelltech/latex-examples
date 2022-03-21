@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+
+
+%--------------------------------------------------------------------------------------------------
+%	Beginning of Document
+%--------------------------------------------------------------------------------------------------
+\begin{document}
+
+
+%------------------------------------------------------------------------------
+\section{Basic Report Writing}
+\subsection{Subsection}
+\subsubsection{Subsubsection}
+With some text in it.
+\subsubsection{Another subsubsection}
+\paragraph{}
+Hello world. Here's some text in the first paragraph of this subsubsection.
+\paragraph{}
+Here's another paragraph in the same subsubsection. 
+
+
+%------------------------------------------------------------------------------
+\section{Math}
+\subsubsection{Some Random Equation}
+$y = \sqrt[3]{\frac{5x}{x^2}}$
+
+\paragraph{}
+This is an inline math equation: $y = x^2 + 2x + 4$ ...in the paragraph following Some Random Equation.
+
+
+%------------------------------------------------------------------------------
+\section{Lists}
+
+\subsection{Non-numbered List}
+\begin{itemize}
+	\item First item
+	\item Second item
+	\begin{itemize}
+		\item First second item
+		\item Second second item
+	\item[!] Last item with custom exclamation point marker	
+	\end{itemize}
+\end{itemize}
+
+\subsection{Numbered Lists}
+\begin{enumerate}
+	\item Numbered
+	\item list of 
+	\item things
+	\begin{enumerate}
+		\item first thing
+		\item second thing
+	\end{enumerate}
+	\item[!] exclaimed item
+	\item[NOTE] this item
+	\item[$\rightarrow$] custom arrow bullet in list
+	\item list cont.
+\end{enumerate}
+
+
+%------------------------------------------------------------------------------
+\section{Tables}
+\begin{center}
+\begin{tabular}{ ||c|c|c|| } 
+ \hline
+ \textbf{head1} & \textbf{head2} & \textbf{head3} \\ 
+ \hline
+ \hline
+ cell4 & cell5 & cell6 \\ 
+ \hline
+ cell7 W/kg  & 
+ cell8 N  & 
+ cell9 seconds \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+\end{document}
+%--------------------------------------------------------------------------------------------------
+%	End of Document
+%--------------------------------------------------------------------------------------------------
