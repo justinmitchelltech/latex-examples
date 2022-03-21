@@ -1,5 +1,17 @@
 \documentclass{article}
+% General Setup
 \usepackage[margin=0.5in]{geometry}
+% for Images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+% for Links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
 
 
 %--------------------------------------------------------------------------------------------------
@@ -27,6 +39,17 @@ $y = \sqrt[3]{\frac{5x}{x^2}}$
 
 \paragraph{}
 This is an inline math equation: $y = x^2 + 2x + 4$ ...in the paragraph following Some Random Equation.
+
+
+%------------------------------------------------------------------------------
+\section{Figures and Images}
+\begin{figure}[h]
+\caption{A funny LaTeX meme}
+\centering
+\includegraphics[width=0.5\textwidth]{latex-meme.jpg}
+\end{figure}
+
+For more examples and settings, \href{http://overleaf.com/learn/latex/Inserting_Images}{click this link.}
 
 
 %------------------------------------------------------------------------------
