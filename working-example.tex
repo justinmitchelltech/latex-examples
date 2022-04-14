@@ -7,6 +7,10 @@
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 
+% for Bibliography
+\usepackage{biblatex}
+\addbibresource{refs.bib}
+
 % for Links
 \usepackage{hyperref}
 \hypersetup{
@@ -14,6 +18,7 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
+    citecolor=blue
 	}
     
 % for Code
@@ -142,6 +147,16 @@ For more examples and settings, \href{http://overleaf.com/learn/latex/Inserting_
 
 \vspace{5mm}
 For more code examples and parameters, \href{https://www.overleaf.com/learn/latex/Code_listing}{click this link.}
+
+
+%------------------------------------------------------------------------------
+\vspace{0.5in}
+\section{Citations}
+
+I'm citing something, here. \cite{einstein}
+
+\pagebreak
+\printbibliography
 
 
 \end{document}

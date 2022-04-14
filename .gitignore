@@ -3,3 +3,7 @@
 *.log
 *.gz
 *.out
+*.bbl
+*.bcf
+*.blg
+*.xml
